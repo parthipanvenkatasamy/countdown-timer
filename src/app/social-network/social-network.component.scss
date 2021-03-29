@@ -1,0 +1,23 @@
+    .socialNetworks {
+        width: 100vw;
+        height: 150px;
+        background: url('../../assets/img/pattern-hills.svg');
+        margin-top: 40px;
+        position: fixed;
+        bottom: 0px;
+        z-index: -100;
+        min-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        i {
+            margin: 15px;
+            cursor: pointer;
+            font-size: 30px;
+            color: #8385A9;
+            &:hover {
+                color: #CC5674;
+            }
+        }
+    }
